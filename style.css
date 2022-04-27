@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(207, 207, 207);
+}
+
+#container {
+    display: flex;
+    background-color: rgba(120, 120, 197, 0.534);
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    width: 250px;
+    max-height: 300px;
+    padding: 15px 0 40px 0;
+}
+#container-image {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#logo {
+    max-height: 50px;
+    max-width: 50px;
+    margin: auto;
+    background-color: transparent;
+}
+#nome, #placa, #cadastrar {
+    width: 80%;
+    height: 25px;
+    margin-top: 15px;
+    text-indent: 5px;
+    border: none;
+    background-color: azure;
+
+}
+#cadastrar {
+    margin-top: 20px;
+    background-color: rgb(119, 0, 255);
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+#cadastrar:hover {
+    background-color: rgb(0, 0, 92);
+    cursor: pointer;
+}
+#tabela {
+    min-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#delete {
+    padding: auto;
+    border: 0;    
+    background-color: darkred;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    width: 20px;
+    height: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#delete:hover {
+    background-color: rgb(214, 75, 75);
+    cursor: pointer;
+}
+
+#delete-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th{
+    border: 1px solid gray;
+    background-color: rgb(119, 0, 255);
+    color: white;
+}
+td{
+    border: 1px solid gray;
+    background-color: white;
+    color: rgba(27, 27, 27, 0.897);
+    text-indent: 5px;
+    height: 20px;
+}
